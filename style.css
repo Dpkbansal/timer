@@ -1,0 +1,67 @@
+html{
+    background-color: black;
+}
+body{
+    margin:0;
+}
+.display{
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20rem;
+    color: white;
+    width : 100vw;
+    height: 30vh;
+    position :absolute;
+    top: 50vh;
+    margin-top: -15vh;
+    justify-content: center;
+    align-items: center;
+}
+.buttons1{
+    display: flex;
+    height: 7vh;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 10vh;
+    width: 100vw;
+}
+.buttons2{
+    display: flex;
+    position: absolute;
+    bottom:10vh;
+    height: 7vh;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+button{
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 50px;
+    border-width: 0px;
+    color: white;
+    width: 15rem;
+    outline: none;
+}
+.buttonClick{
+    transform: scale(1.1);
+}
+.increase{
+    grid-area: increase;
+    background-color: rgb(83, 40, 151);
+}
+.decrease{
+    grid-area: decrease;
+    background-color: rgb(83, 40, 151);
+}
+.pause{
+    grid-area: pause;
+    background-color: rgb(219, 84, 84);
+}
+.start{
+    grid-area: start;
+    background-color: teal;
+}
+.reset{
+    grid-area: reset;
+    background-color: rgb(219, 84, 84)
+}
